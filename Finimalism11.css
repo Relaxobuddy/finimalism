@@ -1404,14 +1404,10 @@ progress {
 }
 
 .layout-desktop .trackSelections {
-  position: fixed;
-  left: 2.5em;
-  bottom: 9.381em;
-  width: 21.66em;
-  font-weight: 500;
-  opacity: 0;
-  animation: fadeTracks 0.5s ease-out 1.25s forwards;
-  pointer-events: all;
+  position: static !important;
+  width: auto !important;
+  height: auto !important;
+  overflow: visible !important;
 }
 
 .layout-tv .trackSelections {
