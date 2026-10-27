@@ -3,20 +3,3 @@
 #indexPage button[data-direction="left"], #indexPage button[data-direction="right"] {
   opacity: 0.5; padding-right: 1em;}
 
-/* Source Selection Fix */
-.trackSelections,
-.trackSelections .selectContainer,
-.trackSelections .detailTrackSelect,
-.selectSourceContainer {
-    overflow: visible !important;
-    max-height: none !important;
-    height: auto !important;
-}
-
-.selectSource,
-.selectSourceContainer,
-.selectSourceContainer .detailTrackSelect {
-    display: flex !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-}
