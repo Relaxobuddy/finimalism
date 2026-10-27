@@ -4818,7 +4818,7 @@ button[is="paper-icon-button-light"].cardOverlayButton.cardOverlayButton-hover.i
 }
 
 .trackSelections .selectLabel {
-    font-size: 0 !important;
+    font-size: inherit !important;
     position: relative;
 }
 
