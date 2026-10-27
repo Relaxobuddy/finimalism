@@ -6656,16 +6656,4 @@ button[is="paper-icon-button-light"].cardOverlayButton.cardOverlayButton-hover.i
     background-repeat: no-repeat;
     vertical-align: middle;
   }
-    /* TEST */
-  .trackSelections {
-    display: block !important;
-    opacity: 1 !important;
-  }
-
-  .selectSourceContainer {
-    display: flex !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    border: 2px solid red !important;
-  }
 }
