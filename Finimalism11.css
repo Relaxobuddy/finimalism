@@ -3908,13 +3908,13 @@ button[is="paper-icon-button-light"].cardOverlayButton.cardOverlayButton-hover.i
   padding-left: 0.5em;
 }
 
-.layout-desktop [dir="ltr"] .detailPagePrimaryContent .detailSectionContent,
-.layout-tv [dir="ltr"] .detailPagePrimaryContent .detailSectionContent {
-  margin-top: 51.2vh;
-  pointer-events: all;
-  text-align: left;
-  max-width: 60vh;
-  max-height: 0;
+.layout-desktop [dir=ltr] .detailPagePrimaryContent .detailSectionContent,
+.layout-tv [dir=ltr] .detailPagePrimaryContent .detailSectionContent {
+    margin-top: 51.2vh;
+    pointer-events: all;
+    text-align: left;
+    max-width: 60vh;
+    max-height: none !important;
 }
 
 .layout-desktop .itemDetailPage:has(#childrenContent .verticalSection[data-type="Movie"]) #listChildrenCollapsible,
