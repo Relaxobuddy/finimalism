@@ -6652,4 +6652,14 @@ button[is="paper-icon-button-light"].cardOverlayButton.cardOverlayButton-hover.i
     background-repeat: no-repeat;
     vertical-align: middle;
   }
+  .trackSelections,
+.selectSourceContainer,
+.selectContainer {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+}
 }
